@@ -1,4 +1,4 @@
-# This is python program to print the string like cool as co2l
+# This is python program to count the occurrences of the words in the string
 # Date : 9th April, 2024
 # Owner : Parmod Kumar
 
