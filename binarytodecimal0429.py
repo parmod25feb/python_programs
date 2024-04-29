@@ -9,7 +9,8 @@ def binary_to_decimal(num):
     count=0
     while num !=0:
         rem= num%10
-        res = res + (rem*pow(2,count))
+        #res = res + (rem*pow(2,count)) # this is with inbuild pow() function
+        res = res + (rem*(2**count)) # this is without pow function 
         num=num//10
         count += 1
     return res
